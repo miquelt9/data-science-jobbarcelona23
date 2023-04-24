@@ -1,5 +1,6 @@
 # Data Challenge
 This repo contains my solution to JOBBarcelona '23 data science challenge ([link](https://nuwe.io/dev/competitions/job-barcelona-23/jobarcelona-23-data-science)).
+**Note for challenge reviewers**: I know I edited repo after challenge's ending, it was just the readme for the future me :) (don't take it as doc)
 
 ## Challenge description
 
@@ -16,9 +17,12 @@ In the [DataChallenge.ipynb](./DataChallenge.ipynb) file you will find the sourc
 
 After looking at the plot of the resulting model's scores I opted for using the RF to get the solution.
 
-
+![Scores from the models](./plot.png)
 
 ### Optimitzation:
 
 I also tried to optimize the f1-score that the RF was giving with [GridSearchCV](https://www.mygreatlearning.com/blog/gridsearchcv/), but unluckily the results weren't better :(
 
+![Optimitzed model comparasiion](./opt_plot.png)
+
+The [predictions.json](./predictions.json) file was the submited one and gave a **0.9** score which for what I [read](https://stephenallwright.com/good-f1-score/) looks like is not that bad xd
