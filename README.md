@@ -1,5 +1,5 @@
 # Data Challenge
-This repo contains my solution to JOBBarcelona '23 data science challenge ([link](https://nuwe.io/dev/competitions/job-barcelona-23/jobarcelona-23-data-science)).
+This repo contains my solution to JOBBarcelona '23 data science challenge ([link](https://nuwe.io/dev/competitions/job-barcelona-23/jobarcelona-23-data-science)).    
 **Note for challenge reviewers**: I know I edited repo after challenge's ending, it was just the readme for the future me :) (don't take it as doc)
 
 ## Challenge description
